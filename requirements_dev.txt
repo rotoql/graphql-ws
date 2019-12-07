@@ -9,6 +9,7 @@ PyYAML==3.11
 pytest==2.9.2
 pytest-runner==2.11.1
 gevent
+aredis==1.1.1
 graphene>=2.0
 django
 channels
