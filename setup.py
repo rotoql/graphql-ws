@@ -16,7 +16,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    'graphql-core>=2.0<3',
+    'graphql-core>=2.0,<3',
     'gevent',
     'redis',
     'aredis==1.1.5',
@@ -40,7 +40,7 @@ test_requirements = [
 
 setup(
     name='graphql-ws',
-    version='0.2.0-dev',
+    version='0.2.1',
     description="Websocket server for GraphQL subscriptions",
     long_description=readme + '\n\n' + history,
     author="Syrus Akbary",
