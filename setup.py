@@ -19,7 +19,6 @@ requirements = [
     'graphql-core>=2.0,<3',
     'gevent',
     'redis',
-    'aredis==1.1.5',
     'rx'
     # TODO: put package requirements here
 ]
